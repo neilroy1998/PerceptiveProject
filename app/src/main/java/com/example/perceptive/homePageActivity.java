@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import java.util.ArrayList;
+
 public class homePageActivity extends AppCompatActivity {
 
     @Override
@@ -13,6 +15,7 @@ public class homePageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
 
         getSupportActionBar().hide();
+
     }
 
     public void search_bclk (View v) {
