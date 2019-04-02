@@ -48,8 +48,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:hint="Enter Your Favourite"
         android:focusable="false"
+        android:hint="Enter Your Favourite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/search_tv_search">
@@ -64,7 +64,7 @@
         android:id="@+id/search_lv"
         android:layout_width="395dp"
         android:layout_height="514dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:layout_marginBottom="8dp"
         android:background="@color/froly"
         android:scrollbars="vertical"
@@ -91,6 +91,17 @@
         app:layout_constraintTop_toBottomOf="@+id/search_et_topic"
         app:strokeColor="@color/ferra"
         app:strokeWidth="1dp" />
+
+    <ProgressBar
+        android:id="@+id/search_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:progressTint="@color/ferra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
